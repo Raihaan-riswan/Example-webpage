@@ -1,0 +1,339 @@
+body{
+    margin: 0 auto;
+}
+
+/* header style start */
+.header{
+    background-color: #3F235E;
+    width: 100%;
+    height: 100px;
+    box-shadow: 1px 10px 27px 0px rgba(0,0,0,0.75);
+}
+.header h1{
+    position: absolute;
+    color: white;
+    margin: 0 auto;
+    margin-left: 550px;
+    padding-top: 10px;
+}
+.header .pno{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    margin-top: 75px;
+    margin-left: 1202px;
+    font-size: 19px;
+    
+}
+
+.header svg{
+    color: white;
+    position: absolute;
+    margin-top: 73px;
+    margin-left: 1005px;
+    font-size: 19px;
+}
+.header .email{
+    font-size: 19px;
+    color: white;
+    position: absolute;
+    margin-top: 73px;
+    margin-left: 1030px;
+}
+/* body start */
+.container{
+    
+    margin: 0 auto;
+    width: 80%;
+    height: 750px;
+    background-color: rgb(255, 255, 255);
+}
+.container .Navigation{
+    margin: 0 auto;
+    height: 175px;
+    width: 80%;
+    background-color: rgba(201, 189, 189, 0.616);
+    float: left;
+    position: absolute;
+    display: flex;
+    margin: 0 auto;
+
+    
+}
+.container .Navigation .logo img{
+    height: 170px;
+    width: 170px;
+}
+
+.container .Navigation ul{
+    position: absolute;
+    list-style: none;
+    position: absolute;
+    display: inline;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-left: 400px;
+    margin-top: 65px;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    width: auto;
+    border: solid 1px black;
+    border-radius: 50px;
+    box-shadow: 3px 15px 35px 0px rgba(0,0,0,0.75)
+    
+
+}   
+
+.container .Navigation ul li{
+    color: rgb(0, 0, 0);
+    padding: auto;
+    font-size: 18px;
+    float: left;
+    border-left: solid 1px rgb(30, 30, 30);
+    border-right: solid 1px rgb(42, 41, 41);
+    height: 18px;
+    
+    
+
+}
+
+
+.container .Navigation ul li a span{
+    
+    transition-delay: 1ms;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    padding: 30px;
+    height: 30px;
+
+}
+.container .Navigation ul li a span:hover{
+    background: rgb(207, 205, 205);
+}
+.container .Navigation ul li a{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    transition-delay: 1ms;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    
+}
+
+.container .Navigation ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(207, 205, 205);
+    
+}
+.container .body-image img{
+  
+    margin: 0 auto;
+    margin-top: 175px;
+    width: 100%;
+    height: 650px;
+    background:url(../Image/2.jpg) fixed no-repeat center;
+    background-size: cover;
+}
+.container .courses{
+    position: absolute;
+    margin: 0 auto;
+    padding: 0 auto;
+    width:80%;
+    height: 650px;
+    background: #DED6D6;
+
+}
+
+.container .courses .sft{
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-left: 450px;
+    width: 25%;
+    height: auto;
+    background: white;
+    border: solid 5px #3F235E;
+    border-radius: 20px;
+    box-shadow: 6px 10px 24px -5px rgba(0,0,0,0.75);
+
+    
+
+}
+.container .courses .circle1{
+    margin: 10px;
+    position:absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #3F235E;
+    box-shadow: -6px -2px 24px -5px rgba(0,0,0,0.75);
+}
+
+.container .courses .ceh{
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-left: 850px;
+    width: 25%;
+    height: auto;
+    background: white;
+    border: solid 5px #3F235E;
+    border-radius: 20px;
+    box-shadow: 6px 10px 24px -5px rgba(0,0,0,0.75);
+
+
+}
+
+.container .courses .graphic{
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 25%;
+    height: auto;
+    background: white;
+    border: solid 5px #3F235E;
+    border-radius: 20px;
+    box-shadow: 6px 10px 24px -5px rgba(0,0,0,0.75);
+
+
+}
+.container .courses .circle2{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 400px;
+    position:absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #3F235E;
+    box-shadow: -6px -2px 24px -5px rgba(0,0,0,0.75);
+}
+
+.container .courses .circle3{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 800px;
+    position:absolute;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #3F235E;
+    box-shadow: -6px -2px 24px -5px rgba(0,0,0,0.75);
+}
+
+.container .courses .circle1 .material-symbols-outlined{
+  font-variation-settings:
+  'FILL' 100,
+  'wght' 500,
+  'GRAD' 100,
+  'opsz' 148;
+  color: white;
+  margin: 0 auto;
+  margin-left: 25px;
+  margin-top: 25px;
+  font-size: 100px;
+  animation: rotate ease-in 1s infinite alternate;
+
+}
+
+.container .courses .circle2 .material-symbols-outlined{
+    font-variation-settings:
+    'FILL' 100,
+    'wght' 500,
+    'GRAD' 100,
+    'opsz' 148;
+    color: white;
+    margin: 0 auto;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 100px;
+    animation: rotate ease-in 1s infinite alternate;
+  
+  }
+
+  .container .courses .circle3 .material-symbols-outlined{
+    font-variation-settings:
+    'FILL' 100,
+    'wght' 500,
+    'GRAD' 100,
+    'opsz' 148;
+    color: white;
+    margin: 0 auto;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 100px;
+    animation: rotate ease-in 1s infinite alternate;
+  
+  }
+  @keyframes rotate {
+    0%{
+        
+    }
+    50%{
+        
+    }
+    100%{
+        transform: rotate(130deg);
+    }
+  }
+.head{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    margin: 0 auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    font-family: "Roboto", serif;
+    margin-bottom: 25px;
+}
+.final{
+    
+    display: inline-block;
+}
+
+.final img{
+   
+    margin: 0 auto;
+    margin-top: 650px;
+    height: 350px;
+    width: 600px;
+   
+
+}
+.final .last{
+    position: absolute;
+    text-align: justify;
+    height: 290px;
+    width: 450px;
+    margin: 0 auto;
+    margin-left: 650px;
+    margin-top: 650px;
+    
+    font-size: 18px;
+    font-family: "Roboto", serif;
+    padding: 0 auto;
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 30px;
+ 
+}
+/* container end */
+
+/* Footer start */
+.footers{
+    margin: 0 auto;
+    margin-top: 1079px;
+    background-color: #000000;
+    width: 100%;
+    height: 100px;
+    box-shadow: 1px -12px 24px 0px rgba(0,0,0,0.75);
+}
+
+
+
+
